@@ -5694,7 +5694,7 @@ input.main-search-input:-ms-input-placeholder {
 .chose-round-bg::before {
   content: '';
   position: absolute;
-  background-color: #494996;
+  background-color: #ffffff73;
   width: 526px;
   height: 526px;
   border-radius: 50%;
