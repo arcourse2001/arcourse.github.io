@@ -456,5 +456,17 @@
 		$('select').niceSelect();
 	});
 
+	$(document).ready(function () {
+		$('#autoWidth').lightSlider({
+			autoWidth: true,
+			loop: true,
+			autoplay: true,
+			autoplaySpeed: 2000,
+			onSliderLoad: function () {
+				$('#autoWidth').removeClass('cS-hidden');
+			}
+		});
+	});
+
 
 })(jQuery);

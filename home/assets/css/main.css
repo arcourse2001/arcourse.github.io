@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: AR Course - E-learning HTML5 Template
+    Template Name: AR Course - #BelajAR Makin BeRAsa
     Author: 
     Version: 1.0
 
@@ -3519,6 +3519,25 @@ input.main-search-input:-ms-input-placeholder {
   /* (plus shape's fill blended on top as a separate layer with 20% opacity) */
   z-index: 2;
 }
+.slider-img-box-two .feature.tag_05 {
+  color: #ffffff;
+  border-radius: 20px;
+  left: auto;
+  right: -210px;
+  font-weight: 600;
+  bottom: 250px;
+  background: transparent;
+  -webkit-box-shadow: 5px 15px 60px rgba(27, 33, 47, 0.6);
+          box-shadow: 5px 15px 60px rgba(27, 33, 47, 0.6);
+  /* Note: currently only Safari supports backdrop-filter */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.03);
+  /* (plus shape's fill blended on top as a separate layer with 20% opacity) */
+  z-index: 2;
+}
 
 @media only screen and (min-width: 1601px) and (max-width: 1800px) {
   .slider-img-box-two .feature.tag_03 {
@@ -3526,8 +3545,21 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 
+@media only screen and (min-width: 1601px) and (max-width: 1800px) {
+  .slider-img-box-two .feature.tag_05 {
+    right: -90px;
+  }
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .slider-img-box-two .feature.tag_03 {
+    right: 0px;
+    bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .slider-img-box-two .feature.tag_05 {
     right: 0px;
     bottom: 100px;
   }
@@ -5436,7 +5468,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .feature.tag_02 {
   right: 10px;
-  top: 152px;
+  top: 102px;
   font-weight: 600;
 }
 
@@ -5445,12 +5477,23 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .feature.tag_03 {
+  right: 80px;
+  top: 250px;
+  font-weight: 600;
+}
+
+.feature.tag_05 {
   left: 128px;
   bottom: -60px;
   font-weight: 600;
 }
 
+
 .feature.tag_03 span {
+  background-color: #16ca70c4;
+}
+
+.feature.tag_05 span {
   background-color: #16ca70c4;
 }
 
@@ -5464,9 +5507,13 @@ input.main-search-input:-ms-input-placeholder {
   background-color: #8E66FF;
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .feature.tag_03 {
+    bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .feature.tag_05 {
     bottom: 0;
   }
 }
@@ -5476,6 +5523,13 @@ input.main-search-input:-ms-input-placeholder {
     display: none;
   }
 }
+
+@media (max-width: 767px) {
+  .feature.tag_05 {
+    display: none;
+  }
+}
+
 
 .why-chose-blur-bg {
   width: 833px;
@@ -5652,11 +5706,19 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .chose-img-wrapper-03 .feature.tag_03 {
+  top: -70px;
+  left: 179px;
+  -webkit-animation: float-bob-y infinite 5s linear;
+          animation: float-bob-y infinite 5s linear;
+}
+
+.chose-img-wrapper-03 .feature.tag_05 {
   left: -75px;
   bottom: 30px;
   -webkit-animation: float-bob-y infinite 5s linear;
           animation: float-bob-y infinite 5s linear;
 }
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .chose-img-wrapper-03 .feature.tag_03 {
@@ -5664,8 +5726,21 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .chose-img-wrapper-03 .feature.tag_05 {
+    left: 0;
+  }
+}
+
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .chose-img-wrapper-03 .feature.tag_03 {
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .chose-img-wrapper-03 .feature.tag_05 {
     left: 0;
   }
 }
@@ -5676,13 +5751,29 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .chose-img-wrapper-03 .feature.tag_05 {
+    left: 0;
+  }
+}
+
 @media (max-width: 767px) {
   .chose-img-wrapper-03 .feature.tag_03 {
     left: 0;
   }
 }
 
+@media (max-width: 767px) {
+  .chose-img-wrapper-03 .feature.tag_05 {
+    left: 0;
+  }
+}
+
 .chose-img-wrapper-03 .feature.tag_03 span {
+  background-color: #8e66ff;
+}
+
+.chose-img-wrapper-03 .feature.tag_05 span {
   background-color: #8e66ff;
 }
 
@@ -8690,5 +8781,107 @@ input.main-search-input:-ms-input-placeholder {
   right: 20.57%;
   bottom: 65px;
   z-index: -1;
+}
+
+.box{
+	width:300px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 25px;
+}
+.slide-img{
+	height: 520px;
+	position:relative;
+}
+.slide-img img{
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+.detail-box{
+	width: 100%;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	font-family: calibri;
+}
+.type{
+	display: flex;
+	flex-direction: column;
+}
+.type a{
+	color:#222222;
+	margin: 5px 0px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-right: 8px;
+}
+.type span{
+	color:rgba(26,26,26,0.5);
+}
+.price{
+	color: #333333;
+	font-weight: 600;
+	font-size: 1.1rem;
+	font-family: poppins;
+	letter-spacing: 0.5px;
+}
+.overlay{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	height: 100%;
+	background-color: rgba(92,95,236,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buy-btn{
+	width:160px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	color:#252525;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: calibri;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+.buy-btn:hover{
+	color:#FFFFFF;
+	background-color: #f15fa3;
+	transition: all ease 0.3s;
+}
+.overlay{
+	visibility: hidden;
+}
+.slide-img:hover .overlay{
+	visibility: visible;
+	animation:fade 0.5s;
+}
+ 
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.slider{
+	width:100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /*# sourceMappingURL=main.css.map */
